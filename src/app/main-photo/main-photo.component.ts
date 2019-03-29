@@ -4,6 +4,7 @@ import { Component, OnInit } from '@angular/core';
   selector: 'app-main-photo',
   templateUrl: './main-photo.component.html',
   styleUrls: ['./main-photo.component.css']
+
 })
 export class MainPhotoComponent implements OnInit {
 
