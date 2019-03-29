@@ -23,9 +23,12 @@ _Planing on create site architecture_
 _Components_
 * Header component
 * Main-Photo component
-* Body component
-* Index components
+* Card component
+* Index links component
 * Footer component
+
+![](src/img/Top.png)
+![](src/img/bottom.png)
 
 _Models_
 * Models
