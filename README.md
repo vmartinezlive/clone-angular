@@ -16,6 +16,8 @@ Rebuild an existing site using Angular with separated components, working databa
 ![](src/img/Screen Shot 2019-03-29 at 8.52.03 AM.png)
 ![](src/img/Screen Shot 2019-03-29 at 8.56.46 AM.png)
 ## Site Plan
+
+* Planing on create site architecture
 _Components_
 * Header component
 * Main-Photo component
@@ -58,3 +60,6 @@ There is no known Bugs
 * npm webpack
 * Angular
 * Bootstrap
+
+### License
+Copyright (c) 2019 **_Victoria Maartinez_**
