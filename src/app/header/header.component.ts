@@ -6,6 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  menu = "Menu"
+  headerTitle = "Apartments.com"
+  signIn = "Sign Up / Sign In"
+
 
   constructor() { }
 
