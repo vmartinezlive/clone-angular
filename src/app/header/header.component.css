@@ -1,9 +1,9 @@
-p {
-display: inline-flex;
-justify-content: space-between;
-
-
-
-
-  /* justify-content: space-around; */
+.header {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+h2 {
+  margin: 10px;
+  
 }
