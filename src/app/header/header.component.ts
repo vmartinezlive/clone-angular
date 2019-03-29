@@ -9,7 +9,13 @@ export class HeaderComponent implements OnInit {
   menu = "Menu"
   headerTitle = "Apartments.com"
   signIn = "Sign Up / Sign In"
-
+  template: `
+    <div class="navbar">
+      <a class="navbar-item">
+      <img src="assests/img/logo.png">
+      </a>
+    </div>
+  `,
 
   constructor() { }
 
