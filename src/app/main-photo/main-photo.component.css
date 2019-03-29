@@ -1,3 +1,23 @@
-#bridge {
-  /* background-image: url(../bridge.jpg) */
+
+.bridge {
+  background-image: url("src/assets/img/bridge.jpg");
+}
+h2 {
+  text-transform: uppercase;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.search {
+  list-style-type: none;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
