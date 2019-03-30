@@ -13,12 +13,12 @@ Rebuild an existing site using Angular with separated components, working databa
 * Project will need to have a working database.
 
 ## Original site
-![](src/img/Screen Shot 2019-03-29 at 8.52.03 AM.png)
-![](src/img/Screen Shot 2019-03-29 at 8.56.46 AM.png)
+![](src/assets/img/top-screen.png)
+![](src/assets/img/bottom-screen.png)
 ## Site Plan
 
 _Planing on create site architecture_
-![](src/img/diagram-component.png)
+![](src/assets/img/diagram-component.png)
 
 _Components_
 * Header component
@@ -27,8 +27,8 @@ _Components_
 * Index links component
 * Footer component
 
-![](src/img/Top.png)
-![](src/img/bottom.png)
+![](src/assets/img/Top.png)
+![](src/assets/img/bottom.png)
 
 _Models_
 * Models
