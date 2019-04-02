@@ -31,15 +31,28 @@ ul {
   top: 50%;
 }
 
+li {
+  margin-left: 8%;
+}
+
 .search {
   list-style-type: none;
   display: flex;
   flex-direction:row;
-  justify-content: space-between;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  position: relative;
+  top: 50%;
+  margin-left: 7.5vw;
+  margin-right: 30vw;
+
 }
 
-li {
-  margin-left: 8%;
+
+
+#city {
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 10vw;
+  font-size: 1em;
+  margin-right: .5em;
+
 }
