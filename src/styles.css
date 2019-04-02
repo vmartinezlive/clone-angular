@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+#rent {
+  font-family: 'Amatic SC', cursive;
+}
+body {
+  font-family: 'Muli', sans-serif;
+}
