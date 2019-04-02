@@ -29,20 +29,19 @@ ul {
   font-weight: bold;
   position: relative;
   top: 50%;
+  margin-left: 4vw;
 }
 
-li {
-  margin-left: 8%;
-}
+
 
 .search {
   list-style-type: none;
   display: flex;
   flex-direction:row;
-  position: relative;
-  top: 50%;
+  position: absolute;
+  top: 70%;
   margin-left: 7.5vw;
-  margin-right: 30vw;
+
 
 }
 
