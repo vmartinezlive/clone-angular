@@ -38,7 +38,7 @@ _Features_
 * Click "English" and the site changes to Spanish Search Page
 * Sign- up Authentication
 * Click "Add to Listing" and page goes to a new page
-* Hoover over an image and image with zoom
+* Hover over an image and image with zoom
 * Drop-down price range
 * Drop-down number of Beds and Baths
 * Image Components to link to another page
