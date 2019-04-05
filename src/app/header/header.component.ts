@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @Component({
@@ -6,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
+
+@NgModule({
+  imports: [NgbModule],
+  declarations: [NgbdDropdownSplit],
+  // exports: [NgbdDropdownSplit],
+  // bootstrap: [NgbdDropdownSplit]
+})
+
 export class HeaderComponent implements OnInit {
 
   constructor() { }
