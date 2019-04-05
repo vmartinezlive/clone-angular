@@ -10,25 +10,6 @@
   height: 3rem;
 }
 
-/* .dropdown-menu {
-  display: none;
-}
-
-button {
-  display: flex;
-  flex-direction: column;
-}
-
-button:hover {
-  display: block;
-} */
-
-
-/* .dropdown {
-  position: relative;
-  display: inline-block;
-} */
-
 .dropdown {
   position: relative;
   display: inline-block;
