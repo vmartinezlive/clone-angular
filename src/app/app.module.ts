@@ -7,6 +7,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainPhotoComponent } from './main-photo/main-photo.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardsComponent } from './cards/cards.component';
+import { DropdownComponent } from './dropdown/dropdown.component';
 // import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -17,7 +18,8 @@ import { CardsComponent } from './cards/cards.component';
     MainPhotoComponent,
     FooterComponent,
     HeaderComponent,
-    CardsComponent
+    CardsComponent,
+    DropdownComponent
   ],
   imports: [
     BrowserModule,
