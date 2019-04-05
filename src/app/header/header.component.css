@@ -14,3 +14,10 @@ h2 {
   height: 4vh;
 
 }
+
+#hamburger {
+  width: 3vw;
+  height: 2vh;
+  padding-left: 1em;
+  padding-top: .2em;
+}
