@@ -8,9 +8,8 @@ import { MainPhotoComponent } from './main-photo/main-photo.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardsComponent } from './cards/cards.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
-import { ReactiveFormsModule } from '@angular/forms';
-import { CityEditorComponent } from './rent-editor/rent-editor.component';
-import { RentEditorComponent } from './rent-editor/rent-editor.component';
+
+
 // import { masterFirebaseConfig } from './api-keys';
 // import { AngularFireModule } from 'angularfire2/database';
 // import { AngularFireDatabaseModule } from 'angularfire2/database';
@@ -30,13 +29,13 @@ import { RentEditorComponent } from './rent-editor/rent-editor.component';
     HeaderComponent,
     CardsComponent,
     DropdownComponent,
-    ReactiveFormsModule,
-    RentEditorComponent
+
+
 
   ],
   imports: [
     BrowserModule,
-    ReactiveFormsModule
+
     // ,
     // AngularFireModule.initializeApp(firebaseConfig),
     // AngularFireDatabaseModule
