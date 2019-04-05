@@ -20,15 +20,7 @@ h2 {
 
 }
 
-#hamburger {
-  width: 3vw;
-  height: 2vh;
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-top: .2em;
-  /* padding-bottom: .3em; */
-  background-color: grey;
-}
+
 
 .sign {
  display: flex;
