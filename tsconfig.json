@@ -14,7 +14,8 @@
     "lib": [
       "es2017",
       "dom"
-    ],
-    "types": [ "firebase" ]
+    ]
+    /* ,
+    "types": [ "firebase" ] */
   }
 }

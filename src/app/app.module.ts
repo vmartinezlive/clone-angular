@@ -8,9 +8,18 @@ import { MainPhotoComponent } from './main-photo/main-photo.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardsComponent } from './cards/cards.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
-// import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-
-
+import { ReactiveFormsModule } from '@angular/forms';
+import { RentEditorComponent } from './rent-editor/rent-editor.component';
+// import { masterFirebaseConfig } from './api-keys';
+// import { AngularFireModule } from 'angularfire2/database';
+// import { AngularFireDatabaseModule } from 'angularfire2/database';
+//
+// export const firebaseConfig = {
+//   apiKey: masterFirebaseConfig.apiKey,
+//   authDomain: masterFirebaseConfig.authDomain,
+//   databaseURL: masterFirebaseConfig.databaseURL,
+//   storageBucket: masterFirebaseConfig.storageBucket
+// };
 
 @NgModule({
   declarations: [
@@ -20,11 +29,15 @@ import { DropdownComponent } from './dropdown/dropdown.component';
     HeaderComponent,
     CardsComponent,
     DropdownComponent,
+    ReactiveFormsModule,
+    RentEditorComponent
 
   ],
   imports: [
-    BrowserModule,
-    // NgbModule
+    BrowserModule
+    // ,
+    // AngularFireModule.initializeApp(firebaseConfig),
+    // AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
