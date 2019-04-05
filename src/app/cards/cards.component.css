@@ -8,25 +8,36 @@ p {
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: 2 1fr;
-  grid-column-gap: 1px;
-  grid-row-gap: 1px;
-  background-color: black;
+  margin-left: 5vw;
+  margin-right: 5vw;
 
-  @media screen and (min-width: 500px){
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+
+
+  /* @media screen and (min-width: 500px){
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   @media screen and (min-width: 800px){
     grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-}
-
-.pet {
+  } */
 
 }
-/* .pet {
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.photo {
+  width:100%;
+}
+
+
 
 
 /* .dishwasher {
