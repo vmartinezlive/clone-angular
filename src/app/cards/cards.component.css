@@ -3,8 +3,9 @@ h1 {
 }
 
 p {
-  margin-left: 2vw;
+  margin-left: 5vw;
   margin-right: 5vw;
+  font-size: 20px;
 }
 
 .grid {

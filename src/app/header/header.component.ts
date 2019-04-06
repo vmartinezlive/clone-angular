@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 export class HeaderComponent implements OnInit {
+  signIn = "Sign Up/Sign In";
 
   constructor() { }
 

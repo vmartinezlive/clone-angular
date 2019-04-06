@@ -7,37 +7,30 @@
   flex-direction: row;
   margin: 0;
 }
-h2 {
-  margin: 10px;
-  font-family: 'Amatic SC', cursive;
-
-}
 
 #logo {
   width: 25vw;
-  height: 4vh;
+  height: 5vh;
   padding-top: .5em;
-
 }
-
-
 
 .sign {
  display: flex;
  padding-top: .2em;
 }
-
+/*
 #signIn {
   font-size: .75em;
-  padding-top: 1em;
+  padding-top: 3em;
   padding-right: .25em;
 
-}
+
+} */
 #add {
   background-color: grey;
   padding-left: 1em;
   padding-right: 1em;
-  padding-top: .2em;
+  padding-top: 2em;
   /* padding-bottom: .2em; */
   color: white;
 
