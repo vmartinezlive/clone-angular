@@ -1,0 +1,32 @@
+* {
+  border: 1px solid red;
+}
+
+#search {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 10vh;
+  left: 7vw;
+  margin-right: 40vw;
+  /* width: 20vw; */
+
+}
+
+#city {
+  width: 20vw;
+  height: 2.5rem;
+  border-radius: 10px;
+}
+
+#range{
+  width: 20vw;
+  height: 2.7rem;
+
+
+}
+
+#bed {
+  width: 20vw;
+  height: 2.7rem;
+}

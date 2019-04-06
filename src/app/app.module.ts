@@ -8,6 +8,10 @@ import { MainPhotoComponent } from './main-photo/main-photo.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardsComponent } from './cards/cards.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
+import { SearchFormComponent } from './search-form/search-form.component';
+
+
+
 
 
 // import { masterFirebaseConfig } from './api-keys';
@@ -29,12 +33,18 @@ import { DropdownComponent } from './dropdown/dropdown.component';
     HeaderComponent,
     CardsComponent,
     DropdownComponent,
+    SearchFormComponent,
+    
+
+
 
 
 
   ],
   imports: [
     BrowserModule,
+
+
 
     // ,
     // AngularFireModule.initializeApp(firebaseConfig),
