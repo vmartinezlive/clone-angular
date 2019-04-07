@@ -70,3 +70,10 @@ p {
   margin-left: 14rem;
   margin-right: 14rem;
 }
+
+#link {
+  text-decoration: none;
+  padding: .5rem .2rem;
+  background-color: #77b802;
+  color: white;
+}

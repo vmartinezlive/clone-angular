@@ -1,7 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MainPhotoComponent } from './main-photo/main-photo.component';
@@ -10,6 +8,9 @@ import { CardsComponent } from './cards/cards.component';
 import { DropdownComponent } from './dropdown/dropdown.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { SignInComponent } from './sign-in/sign-in.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { routing } from './app.routing';
+import { ApartmentComponent } from './apartment/apartment.component';
 
 
 
@@ -36,11 +37,14 @@ import { SignInComponent } from './sign-in/sign-in.component';
     DropdownComponent,
     SearchFormComponent,
     SignInComponent,
+    WelcomeComponent,
+    ApartmentComponent,
 
 
   ],
   imports: [
     BrowserModule,
+    routing
 
     // ,
     // AngularFireModule.initializeApp(firebaseConfig),
