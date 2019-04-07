@@ -19,6 +19,10 @@
  display: flex;
  padding-top: .2em;
 }
+
+#sign-up {
+ margin-top: 2rem;
+}
 /*
 #signIn {
   font-size: .75em;
