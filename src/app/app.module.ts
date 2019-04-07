@@ -11,6 +11,7 @@ import { SignInComponent } from './sign-in/sign-in.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { routing } from './app.routing';
 import { ApartmentComponent } from './apartment/apartment.component';
+import { ApartmentDetailComponent } from './apartment-detail/apartment-detail.component';
 
 
 
@@ -39,6 +40,7 @@ import { ApartmentComponent } from './apartment/apartment.component';
     SignInComponent,
     WelcomeComponent,
     ApartmentComponent,
+    ApartmentDetailComponent,
 
 
   ],
