@@ -1,8 +1,9 @@
 #search {
+
   display: flex;
   flex-direction: row;
   position: relative;
-  top: 15vh;
+  top: 3vh;
   left: 7vw;
   margin-right: 40vw;
   /* width: 20vw; */
