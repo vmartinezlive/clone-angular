@@ -1,0 +1,63 @@
+
+{ "apartment": [{
+    "name": "Cadence Apartments",
+    "address": "2005 N Williams Ave, POrtland, OR 97227",
+    "beds": "Studio",
+    "bath": 1,
+    "id": "1"
+    }, {
+    "name": "Gold Creek Apartments",
+    "address": "1807 SW Golf Creek Dr, Portland, OR 97225",
+    "beds": "1 Bed",
+    "bath": 1,
+    "id": "2"
+    }, {
+    "name": "Broadstone Tempo",
+    "address": "80 NE 14th Ave, Portland, OR 97232",
+    "beds": "1 Bed",
+    "bath": 1,
+    "id": "3"
+    }, {
+    "name": "Grant Park Village",
+    "address": "1580 NE 32nd Ave, Portland OR 97232",
+    "beds": "Studio",
+    "bath": 1,
+    "id": "4"
+    }, {
+    "name": "Vue Apartments",
+    "address": "1580 NE 32nd, Portland, OR 97232",
+    "beds": "2 Bed",
+    "bath": 2,
+    "id": "5"
+    }, {
+    "name": "Rivage Apartments ",
+    "address": "2220 NW Front Ave, Portland OR 97232",
+    "beds": "1 Bed",
+    "bath": 1,
+    "id": "6"
+    }, {
+    "name": "LL Hawkins",
+    "address": "1515 NW 21st Ave, Portland, OR 97210",
+    "beds": "Studio",
+    "bath": 1,
+    "id": "7"
+    }, {
+    "name": "Q21",
+    "address": "1850 NW Front Ave, Portland, OR 97209",
+    "beds": "Studio",
+    "bath": 1,
+    "id": "8"
+    }, {
+    "name": "Modera Pearl",
+    "address": "1481 NW 13th Ave, Portland, OR 97209",
+    "beds": "2 Bed",
+    "bath": 2,
+    "id": "9"
+    }, {
+    "name": "Sunset Summit",
+    "address": "7400 SW Barnes Rd, Portland, OR 97225",
+    "beds": "2 Bed",
+    "bath": 2,
+    "id": "10"
+  }]
+}
