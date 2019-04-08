@@ -13,20 +13,16 @@ import { routing } from './app.routing';
 import { ApartmentComponent } from './apartment/apartment.component';
 import { ApartmentDetailComponent } from './apartment-detail/apartment-detail.component';
 
+import { masterFirebaseConfig } from './api-keys';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
-
-
-
-// import { masterFirebaseConfig } from './api-keys';
-// import { AngularFireModule } from 'angularfire2/database';
-// import { AngularFireDatabaseModule } from 'angularfire2/database';
-//
-// export const firebaseConfig = {
-//   apiKey: masterFirebaseConfig.apiKey,
-//   authDomain: masterFirebaseConfig.authDomain,
-//   databaseURL: masterFirebaseConfig.databaseURL,
-//   storageBucket: masterFirebaseConfig.storageBucket
-// };
+export const firebaseConfig = {
+  apiKey: masterFirebaseConfig.apiKey,
+  authDomain: masterFirebaseConfig.authDomain,
+  databaseURL: masterFirebaseConfig.databaseURL,
+  storageBucket: masterFirebaseConfig.storageBucket
+};
 
 @NgModule({
   declarations: [
@@ -46,11 +42,9 @@ import { ApartmentDetailComponent } from './apartment-detail/apartment-detail.co
   ],
   imports: [
     BrowserModule,
-    routing
-
-    // ,
-    // AngularFireModule.initializeApp(firebaseConfig),
-    // AngularFireDatabaseModule
+    routing,
+    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent]

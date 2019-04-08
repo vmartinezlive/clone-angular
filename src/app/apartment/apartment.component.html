@@ -1,5 +1,5 @@
 <h2>View Apartment List</h2>
-<div *ngFor="let apartment of apartments" (click)="goToDetailPage(apartment)" class="w3-card">
+<div *ngFor="let apartment of apartments | async" (click)="goToDetailPage(apartment)" class="w3-card">
   <div class="w3-card">
     <h3><em>{{apartment.name}}</em>Address: {{apartment.address}}</h3>
 
