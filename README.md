@@ -31,7 +31,7 @@ _Components_
 ![](src/assets/img/plans/bottom.png)
 
 _Models_
-* Models
+* Apartment Model
 
 _Features_
 * Drop-down header menu to link to different pages
